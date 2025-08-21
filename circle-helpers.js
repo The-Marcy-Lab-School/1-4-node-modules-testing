@@ -10,9 +10,4 @@ const getCircumference = (radius) => {
   return LAZY_PI * radius * 2;
 }
 
-module.exports = {
-  LAZY_PI,
-  getArea,
-  getDiameter,
-  getCircumference
-};
+// TODO: Export these values
